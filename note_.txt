@@ -1,0 +1,22 @@
+- Chuyển FTP -> Blob:
+  + Gateway: 3 luồng (thay tất cả một chỗ) -> 
+  + Luồng còn lại của Web (chưa rõ) (hiện tại sửa 1 luồn) -> chuyển thành sửa tất cả một chỗ (1 file)
+  + Đẩy code mới lên Web
+  + Sửa Web synconos
+- Elastic Search -> Azure Search:
+  + Setting
+  + Search 
+
+- Query to DB (hybernate):
+  - Fancy function: 4 thằng (Date -> Now(), Lob) (18 câu lệnh)
+  - Oracle2PG (bảng 200)
+  - Query
+- Kafka (chưa làm gì) -> thay đổi kiến trúc.
+  + Evenhub
+- Redis (50%):
+  + Query
+ 
+- DB config:
+  + Web ok
+  + Gateway
+  

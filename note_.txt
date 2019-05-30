@@ -1,7 +1,8 @@
 - Chuyển FTP -> Blob:
   + Gateway: 3 luồng (thay tất cả một chỗ) -> 
+    ++ Lưu config vào file
   + Luồng còn lại của Web (chưa rõ) (hiện tại sửa 1 luồn) -> chuyển thành sửa tất cả một chỗ (1 file)
-  + Đẩy code mới lên Web
+  + Đẩy code mới lên Web -> DONE
   + Sửa Web synconos
 - Elastic Search -> Azure Search:
   + Setting
